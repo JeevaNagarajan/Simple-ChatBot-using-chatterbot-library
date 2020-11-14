@@ -2,6 +2,8 @@
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ChatterBotCorpusTrainer
+import logging
+logging.basicConfig(level=logging.CRITICAL)
 
 # creating instance(object) for our ChatBot and naming our ChatBot as 'Tom'.
 my_chatbot = ChatBot('Tom')
